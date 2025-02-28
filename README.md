@@ -6,7 +6,8 @@
 ### Examples
 
 #### Bar Chart
-![image](D3.js%20Bar%20Chart/bar_chart_d3.png)
+![image](D3.js/D3.js Bar Chart/bar_chart_d3.png)
+
 
 #### Pie Chart
 
