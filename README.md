@@ -17,4 +17,4 @@
 
 #### Force-Directed Graph
 
-![image](D3.js/D3.js%20force-directed%20graph)
+![image](D3.js/D3.js%20force-directed%20graph.png)
