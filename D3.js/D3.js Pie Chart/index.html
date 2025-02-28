@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Pie Chart Example</title>
+    <style>
+        /* Optional: Add some styles for the pie chart */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+
+        .pie-chart {
+            margin: 50px auto;
+            width: 400px;
+            height: 400px;
+        }
+
+        .slice {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .slice:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pie-chart">
+        <svg id="pie-chart"></svg>
+    </div>
+
+    <!-- Include D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Link to your custom script -->
+    <script src="script.js"></script>
+
+</body>
+</html>

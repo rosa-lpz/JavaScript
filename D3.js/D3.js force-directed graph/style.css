@@ -1,0 +1,62 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Styling for the graph container */
+.graph-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the SVG element (the graph itself) */
+svg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;  /* Optional: Add a border around the SVG */
+}
+
+/* Styling for the links (edges) */
+.link {
+    fill: none;
+    stroke: #999;  /* Light gray color for edges */
+    stroke-opacity: 0.6;
+    stroke-width: 2px;
+}
+
+/* Styling for the nodes (circles) */
+.node {
+    stroke: #fff;  /* White stroke for the circles */
+    stroke-width: 1.5px;
+    cursor: pointer;  /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for nodes (circles) */
+.node:hover {
+    fill: orange;  /* Change color to orange when hovering */
+}
+
+/* Optional: Styling for the node text labels */
+text {
+    font-size: 12px;
+    pointer-events: none;  /* Prevent text from interfering with node interactions */
+    font-weight: bold;
+    fill: black;  /* Black color for text */
+}
+
+/* Optional: Styling for when the node is selected or focused */
+.node.selected {
+    fill: teal;  /* Change color when selected */
+}
+
+/* Add a minimal style for the title (node ids) */
+.node title {
+    font-size: 12px;
+    font-weight: normal;
+}
